@@ -1,0 +1,24 @@
+button {
+    color: black;
+}
+h2 {
+    text-align: center;
+    color: snow;
+}
+input{
+    color: black;
+}
+form {
+    text-align: center;
+    color: snow;
+    margin-top: 50px;
+}
+body {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background: #636268;
+}
+div {
+    color: white;
+}
