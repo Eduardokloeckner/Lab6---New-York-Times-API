@@ -1,7 +1,7 @@
 $(function() {
   $("form").on("submit", function() {
 var search = $("#search").val();
-var apikey = "d5e9104b02fd4562bef87ecbb1407782";
+var apikey = "d5e9104b02fd4562bef87ecbb1407782"; // <---- Paste your API key here
 var url = "https://api.nytimes.com/svc/search/v2/articlesearch.json?q=" + search + "&" + "api-key=" + apikey;
 $.ajax({
     url: url,
